@@ -841,9 +841,12 @@ Home Section
 @media(max-width:767px){
     .contact-form,
     .contact-info,
-    .about-img,
     .about-text{
         width: 100%;
+    }
+    .about-img{
+        display: block;
+        margin-left: 150px;
     }
     .about-text{
         margin-top: 30px;
